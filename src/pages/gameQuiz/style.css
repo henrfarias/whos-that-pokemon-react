@@ -1,0 +1,11 @@
+.game__container {
+  display: flex;
+  flex-direction: column;
+
+  width: clamp(300px, 95vw, 500px);
+  min-height: 100vh;
+
+  margin: auto;
+  
+  background: #F61818;
+}

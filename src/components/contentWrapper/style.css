@@ -1,0 +1,8 @@
+.contentWrapper {
+  width: clamp(250px, 80%, 500px);
+  margin: 6.6rem auto 0;
+  padding: 1rem 2rem;
+
+  background-color: #FFF;
+  border-radius: 10px;
+}

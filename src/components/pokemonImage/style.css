@@ -1,0 +1,14 @@
+.whos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-color: white;
+}
+
+.whos__pokemon {
+  height: 200px;
+  filter: brightness(0);
+  margin: 2rem 0;
+}

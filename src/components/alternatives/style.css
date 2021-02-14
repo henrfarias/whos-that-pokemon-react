@@ -1,0 +1,69 @@
+.form__alternatives {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.alternatives__legend {
+  margin: 5.8rem 0 3rem 3rem;
+  font-size: 2rem;
+  color: white;
+  font-family: inherit;
+}
+
+.alternative__radio {
+  display: none;
+}
+
+.alternative {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+  font-size: 3.8rem;
+}
+
+.alternative__label {
+  position: relative;
+  width: 85%;
+  background-color: #FFF;
+  font-family: inherit;
+  text-align: center;
+  padding-left: 5rem;
+  overflow: hidden;
+  color: #5C5C5C;
+  border-radius: 10px;
+  border: 1px solid white;
+
+}
+
+.alternative__letter {
+  position: absolute;
+  left: 0;
+  width: 5rem;
+  font-family: inherit;
+  text-align: center;
+  background-color: #600202; 
+  color: white;
+}
+
+.buttonQuiz {
+  height: 6rem;
+  padding: 0 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #600202; 
+  color: #FFF;
+  filter: drop-shadow(1px 2px 1px #000000AA);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+
+
+
