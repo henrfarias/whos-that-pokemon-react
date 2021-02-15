@@ -1,7 +1,7 @@
 import React from 'react';
-import { Header } from '../../components/Header'
+import { Header } from '../../components/header'
 import { ContentWrapper } from '../../components/contentWrapper';
-import { InputName } from '../../components/InputName';
+import { InputName } from '../../components/inputName';
 
 import './style.css'
 

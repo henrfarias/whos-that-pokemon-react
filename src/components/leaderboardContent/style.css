@@ -1,4 +1,42 @@
 .leaderboard {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.leaderboard__list {
+  width: 100%;
+  border-top: 1px solid #DBDBDB; 
+  border-radius: 10px;
+}
+
+.leaderboard__item {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+
+  list-style: none;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 6.6rem;
+}
+
+.leaderboard__item:not(.leaderboard__item:first-child){
+  border: 1px solid #DBDBDB;
+}
+
+.leaderboard__points {
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 2rem;
+  color: #444;
+}
+
+.leaderboard__podium, .leaderboard__position {
+  width: 2.9rem;
+  margin-left: 2rem;
+  color: #444;
 }

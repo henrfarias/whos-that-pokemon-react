@@ -36,7 +36,17 @@
   color: #5C5C5C;
   border-radius: 10px;
   border: 1px solid white;
+  cursor: pointer;
 
+}
+
+.alternative__label:hover {
+  opacity: 0.9;
+}
+
+.alternative__radio:checked + .alternative__label {
+  background-color: #E84855;
+  color: white;
 }
 
 .alternative__letter {
@@ -47,7 +57,7 @@
   text-align: center;
   background-color: #600202; 
   color: white;
-}
+} 
 
 .buttonQuiz {
   height: 6rem;
