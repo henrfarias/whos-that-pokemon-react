@@ -37,7 +37,7 @@
   border-radius: 10px;
   border: 1px solid white;
   cursor: pointer;
-
+  text-transform: uppercase;
 }
 
 .alternative__label:hover {

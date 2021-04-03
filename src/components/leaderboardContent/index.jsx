@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
 
 import Gotcha from '../../utils/Gotcha.svg'
@@ -7,8 +7,6 @@ import second from '../../utils/second.svg'
 import third from '../../utils/third.svg'
 
 const LeaderboardContent = () => {
-
- 
   return (
     <div className='leaderboard'>
       <img className='leaderboard__image' src={ Gotcha } alt='Gotcha, tabela de líderes'></img>

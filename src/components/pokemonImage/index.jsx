@@ -2,10 +2,10 @@ import React from 'react';
 
 import './style.css'
 
-const PokemonImage = () => {
+const PokemonImage = ({ image }) => {
   return (
     <section className='whos'>
-      <img class='whos__pokemon' src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg' alt='Imagem do pokemon'></img>
+      <img className='whos__pokemon' src={ image } alt='Imagem do pokemon'></img>
     </section>
   );
 }
